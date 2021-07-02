@@ -19,14 +19,15 @@
   .service{
     display: inline-block;
     width: calc(100% / 3);
-    margin: 0 -2px;
+    margin: 20px 5px;
     padding: 20px;
     box-sizing: border-box;
     cursor: pointer;
     transition: 0.4s;
+    background: #ddd;
   }
   .service:hover{
-    background: #ddd;
+    background: #ffffff;
   }
   .service i{
     color: #3498db;
@@ -43,6 +44,21 @@
     color: gray;
     font-size: 15px;
     font-weight: 500;
+  }
+
+  .service button {
+    margin-top: 10px;
+    width:80px;
+    height: 30px;
+    /* text-transform: uppercase; */
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+  }
+
+  .service button:hover { 
+    background-color: rgb(54, 42, 42);
+    color: #3498db;
   }
   @media screen and (max-width: 800px) {
     .service{
