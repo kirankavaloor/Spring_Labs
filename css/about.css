@@ -1,0 +1,242 @@
+.about{
+    background: #f1f1f1;
+    text-align: center;
+  }
+
+  .about h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+
+  
+
+  .about-content{
+    /* max-width: 1200px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  
+  .about-img{
+    flex-basis: 50%;
+    display: inline-block;
+  }
+  .about-img img {
+    border-radius: 25px;
+    width: 600px;
+    height: 300px;
+  }
+
+  .about-img .about-text {
+    width: 600px;
+    height: 250px;
+    background-color: #f1f1f1;
+    margin: 30px -100px;
+    border-radius: 25px;
+  }
+
+  .about-img .about-text h3{
+    text-align: justify;
+    padding: 20px;
+  }
+
+  .about-img .about-text p{
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+  .about button{
+    border-radius: 4px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .cen1{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .abu1{
+    display: inline-block;
+    width: calc(100% / 1);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .abu1 h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    /* border-bottom: 4px solid #3498db; */
+    font-weight: 500;
+    margin: 0;
+  }
+  .abu1 span {
+    border-bottom: 4px solid #3498db;
+  }
+  .abu1 p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+ 
+
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .abu{
+    display: inline-block;
+    width: calc(100% / 2);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .abu:hover{
+    background: #ddd;
+  }
+  .abu i{
+    color: #3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .abu h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+  }
+  .abu p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+ 
+  @media screen and (max-width: 800px) {
+
+    .about-img{
+      flex-basis: 100%;
+    }
+
+    .about-img img {
+      border-radius: 25px;
+      width: 550px;
+      height: auto;
+    }
+   
+    .about-img .about-text {
+      width: auto;
+      height: auto;
+      background-color: #f1f1f1;
+      margin: 10px 10px;
+      border-radius: 25px;
+      align-items: center;
+    }
+  
+    .about-img .about-text h3{
+      text-align: justify;
+      padding: 20px;
+    }
+  
+    .about-img .about-text p{
+      text-align: justify;
+      padding: 20px;
+    }
+    .abu1 {
+      width: 50%;
+  }
+
+    .abu {
+        width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+   
+    .about-img{
+      flex-basis: 100%;
+    }
+
+    .about-img img {
+      border-radius: 25px;
+      width: 400px;
+      height: auto;
+    }
+   
+    .about-img .about-text {
+      width: auto;
+      height: auto;
+      background-color: #f1f1f1;
+      margin: 10px 10px;
+      border-radius: 25px;
+      align-items: center;
+    }
+  
+    .about-img .about-text h3{
+      text-align: justify;
+      padding: 20px;
+    }
+  
+    .about-img .about-text p{
+      text-align: justify;
+      padding: 20px;
+    }
+
+    .abu1 {
+      width: 100%;
+  }
+
+    .abu {
+        width: 100%;
+    }
+  }
