@@ -64,6 +64,7 @@
     height: 50px;
     padding: 12px;
     background-color: #222;
+    border-radius: 5px;
     border: none;
     color: #fff;
     margin-bottom: 20px;
@@ -73,6 +74,7 @@
     width: 100%;
     min-height: 200px;
     max-height: 400px;
+    border-radius: 5px;
     resize: vertical;
     padding: 12px;
     background-color: #222;
@@ -87,6 +89,7 @@
     margin-left: auto;
     background-color: #3494db;
     border: none;
+    border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;

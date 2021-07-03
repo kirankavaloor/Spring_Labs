@@ -15,10 +15,21 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 100){
             $(".header").addClass("fixed");
+            
         }else{
             $(".header").removeClass("fixed");
+            
         }
     })
+
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $(".headertopmobile").addClass("fixed1");
+        }else{
+            $(".headertopmobile").removeClass("fixed1");
+        }
+    })
+
 
 })
 
