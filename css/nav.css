@@ -10,13 +10,13 @@ a{
       left: 0;
       z-index: 99;
       /* border-bottom: 1px solid #000000; */
-      border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+      border-bottom: 1px solid rgba(247, 243, 243, 0.2);
       transition: all 0.5s ease;
       font-family: 'Times New Roman', Times, serif;
   }
   
   .header.fixed {
-      background-color: #ffffff;
+      background-color: #000000;
       box-shadow: 0 0 8px #cccccc;
   }
   .header .logo {
@@ -31,7 +31,7 @@ a{
 
 .header.fixed .logo img{
     display: block;
-    width: 140px;
+    width: 80px;
     height: 50px;
 }
   /* .header .logo a {
@@ -63,7 +63,7 @@ a{
       width: 40px;
       height: 34px;
       border-radius: 3px;
-      border:1px solid #000000;
+      border:1px solid #ffffff;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -73,15 +73,15 @@ a{
   }
   
   .header.fixed .hamburger-btn{
-      border-color: #000000;
-      background-color: #ffffff;
+      border-color: #ffffff;
+      background-color: #000000;
   }
   
   .header .hamburger-btn span {
       display: block;
       height: 1px;
       width: 16px;
-      background-color: #000000;
+      background-color: #ffffff;
       position: relative;
       transition: all 0.5s ease;
   }
@@ -97,7 +97,7 @@ a{
       height: 1px;
       width: 100%;
       left: 0;
-      background-color: #000000;
+      background-color: #ffffff;
   }
   .header .hamburger-btn span:before{
       top: -6px;
@@ -135,8 +135,12 @@ a{
   }
 
   .header.fixed .nav ul li a {
-      color: #3498db;
+      color: #ffffff;
   }
+
+  .header.fixed .nav ul li a:hover {
+    color: #b0cde0;
+}
 
 .headertopmobile{
     display: none;
@@ -151,6 +155,11 @@ a{
     .header .logo {
         padding: 8px 15px;
     }
+    /* .header.fixed .logo img{
+        display: block;
+        width: 100px;
+        height: 50px;
+    } */
     .header .hamburger-btn{
         display: flex;
         margin-right: 15px;
