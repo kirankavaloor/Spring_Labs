@@ -53,13 +53,20 @@
     /* text-transform: uppercase; */
     border-radius: 5px;
     border: none;
+    color: #000000;
     background-color: #3498db;
+  }
+  .service button a {
+    color: #000000;
   }
 
   .service button:hover { 
-    background-color: rgb(54, 42, 42);
-    color: #3498db;
+    background-color: #000000;
   }
+  .service button:hover a {
+    color: #ffffff;
+  }
+
   @media screen and (max-width: 800px) {
     .service{
       width: 50%;

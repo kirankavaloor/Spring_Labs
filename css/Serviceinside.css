@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(136, 125, 125);
+    background-color: #f1f1f1;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -35,7 +35,7 @@ body{
   .services-inside h1{
     display: inline-block;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
     border-bottom: 4px solid #3498db;
     font-size: 40px;
     padding-bottom: 10px;
@@ -44,16 +44,16 @@ body{
 
   .services-inside p {
       /* width: 80%; */
-      padding-left: 50px;
-      padding-right: 50px;
-      color: #ffffff;
-      text-align: center;
+      padding-left: 150px;
+      padding-right: 150px;
+      color: #000000;
+      text-align: justify;
       font-size: 20px;
   }
 
   .services-inside h3{
     display: inline-block;
-    color: #7bb8e0;
+    color: #3498db;
     /* border-bottom: 4px solid #3498db; */
     font-size: 25px;
     padding-bottom: 10px;
@@ -67,11 +67,11 @@ body{
   }
 
   .services-inside ul li{
-      color: #7bb8e0;
+      color: #3498db;
       font-size: 20px;   
   }
   .services-inside ul li a{
-    color: white;
+    color: #000000;
     cursor: pointer;
     font-size: 20px;
 }
@@ -209,6 +209,77 @@ body{
 /* For Mobile Screen */
 
 @media screen and (max-width: 768px) {
+
+    .services-inside{
+        text-align: center;
+        margin-top: 10px;
+      }
+    
+      .services-inside .button{
+          width: 150px;
+          height: 120px;
+          /* background-color: #3498db; */
+          border-radius: 30px;
+          position: Fixed;
+          cursor: pointer;
+      }
+    
+      .services-inside .button i{
+          font-size: 70px;
+          align-content: center;
+          border-radius: 32px;
+            color: black;   
+            margin-top: 25px;
+      }
+    
+      .services-inside .button i:hover {
+          /* color: #3498db; */
+          background-color: #3498db;
+      }
+    
+      .services-inside h1{
+        display: inline-block;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 4px solid #3498db;
+        font-size: 40px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+      }
+    
+      .services-inside p {
+          /* width: 80%; */
+          padding-left: 50px;
+          padding-right: 50px;
+          color: #000000;
+          text-align: justify;
+          font-size: 20px;
+      }
+    
+      .services-inside h3{
+        display: inline-block;
+        color: #3498db;
+        /* border-bottom: 4px solid #3498db; */
+        font-size: 40px;
+        padding-bottom: 10px;
+        /* margin-top: 40px; */
+      }
+    
+      .services-inside ul {
+          margin-top: 0px;
+          display: inline-block;
+        text-align: justify;
+      }
+    
+      .services-inside ul li{
+          color: #3498db;
+          font-size: 30px;   
+      }
+      .services-inside ul li a{
+        color: #000000;
+        cursor: pointer;
+        font-size: 30px;
+    }
 
     .slider1{
         width: 400px;

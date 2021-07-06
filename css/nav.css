@@ -24,7 +24,7 @@ a{
       
   }
   
-  .header .logo img {
+  /* .header .logo img {
     width: 80px;
     height: 50px;
 }
@@ -33,16 +33,16 @@ a{
     display: block;
     width: 80px;
     height: 50px;
-}
-  /* .header .logo a {
+} */
+  .header .logo a {
       font-size: 30px;
-      color: #000000;
+      color: #ffffff;
       font-weight: bold;
       letter-spacing: 2px;
       text-transform: uppercase;
       transition: all 0.5s ease;
       font-family: 'Times New Roman', Times, serif;
-  } */
+  }
 
   .header .logo a i {
       font-size: 30px;
@@ -51,7 +51,7 @@ a{
   
   
   .header.fixed .logo a{
-      color: #000000;
+      color: #ffffff;
   }
   
   .header.fixed .logo a i {
@@ -155,14 +155,23 @@ a{
     .header .logo {
         padding: 8px 15px;
     }
+
+    .header .logo a {
+        font-size: 25px;
+    }
     /* .header.fixed .logo img{
         display: block;
         width: 100px;
         height: 50px;
     } */
+
+    
     .header .hamburger-btn{
         display: flex;
         margin-right: 15px;
+        width: 30px;
+        height: 24px;
+        border-radius: 3px;
     }
     .header .nav{
         flex: 0 0 100%;
@@ -179,6 +188,10 @@ a{
         color: #3498db;
         padding: 10px 0;
         font-family: 'Times New Roman', Times, serif;
+    }
+
+    .header.fixed .nav ul li a {
+        color: #3498db;
     }
 
     .headertop{
@@ -199,7 +212,7 @@ a{
         border:1px solid #000000;
         cursor: pointer; 
         transition: all 0.5s ease;
-        box-shadow: 10px 10px 5px grey;
+        box-shadow: 5px 5px 2px grey;
     }
   
     .headertopmobile.fixed1 {
