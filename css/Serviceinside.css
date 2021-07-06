@@ -1,33 +1,36 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 .services-inside{
     text-align: center;
     margin-top: 10px;
   }
 
-  .services-inside .button{
-      width: 120px;
-      height: 100px;
-      /* background-color: #3498db; */
+  .services-inside .backbutton{
+      /* width: 120px;
+      height: 100px; */
+      background-color: #3498db;
       border-radius: 25px;
       position: Fixed;
       cursor: pointer;
+      padding-left: 20px;
+      margin-top: 20px;
   }
 
-  .services-inside .button i{
+  .services-inside .backbutton i{
       font-size: 50px;
+      position: fixed;
       align-content: center;
       border-radius: 28px;
-        color: black;   
-        margin-top: 20px;
+     color: black;        
+
   }
 
-  .services-inside .button i:hover {
+  .services-inside .backbutton i:hover {
       /* color: #3498db; */
       background-color: #3498db;
   }
@@ -240,52 +243,45 @@ body{
 }
 /* For Mobile Screen */
 
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
 
-    /* .services-inside{
+    .services-inside{
         text-align: center;
         margin-top: 10px;
-      /* } */
+      }
     
-      .services-inside .button{
-          width: 80px;
-          height: 60px;
-          /* background-color: #3498db;  */
-          /* border-radius: 80px; */
+      .services-inside .backbutton{
+          /* width: 120px;
+          height: 100px; */
+          background-color: #3498db;
+          border-radius: 25px;
           position: Fixed;
           cursor: pointer;
+          padding-left: 20px;
+          margin-top: 20px;
       }
     
-      .services-inside .button i{
+      .services-inside .backbutton i{
           font-size: 50px;
+          position: fixed;
           align-content: center;
-          border-radius: 40px;
-          color: black;   
-          margin-top: 5px;
+          border-radius: 28px;
+         color: black;        
+    
       }
     
-      .services-inside .button i:hover {
-          color: #3498db;
+      .services-inside .backbutton i:hover {
+          /* color: #3498db; */
           background-color: #3498db;
-      } 
-    
-      /* .services-inside h1{
-        display: inline-block;
-        text-transform: uppercase;
-        color: #000000;
-        border-bottom: 4px solid #3498db;
-        font-size: 60px;
-        padding-bottom: 10px;
-        margin-top: 40px;
       }
-     */
+    
       .services-inside p {
-          width: 80%;
+          /* width: 80%; */
           padding-left: 50px;
           padding-right: 50px;
           color: #000000;
           text-align: justify;
-          font-size: 19px;
+          font-size: 18px;
       }
     
       .services-inside h3{
@@ -294,7 +290,7 @@ body{
         /* border-bottom: 4px solid #3498db; */
         font-size: 30px;
         padding-bottom: 10px;
-        margin-top: 40px;
+        /* margin-top: 40px; */
       }
     
       .services-inside ul {
@@ -305,13 +301,14 @@ body{
     
       .services-inside ul li{
           color: #3498db;
-          font-size: 20px;   
+          font-size: 25px;   
       }
       .services-inside ul li a{
         color: #000000;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 25px;
     }
+      
 
     .slider1{
         width: 400px;
@@ -474,71 +471,3 @@ body{
     }
 }
 
-@media screen and (max-width: 550px) {
-    .services-inside .button{
-        width: 80px;
-        height: 60px;
-        /* background-color: #3498db;  */
-        /* border-radius: 80px; */
-        position: Fixed;
-        cursor: pointer;
-    }
-  
-    .services-inside .button i{
-        font-size: 50px;
-        align-content: center;
-        border-radius: 40px;
-        color: black;   
-        margin-top: 5px;
-    }
-  
-    .services-inside .button i:hover {
-        color: #3498db;
-        background-color: #3498db;
-    } 
-  
-    /* .services-inside h1{
-      display: inline-block;
-      text-transform: uppercase;
-      color: #000000;
-      border-bottom: 4px solid #3498db;
-      font-size: 60px;
-      padding-bottom: 10px;
-      margin-top: 40px;
-    }
-   */
-    .services-inside p {
-        width: 80%;
-        padding-left: 50px;
-        padding-right: 50px;
-        color: #000000;
-        text-align: justify;
-        font-size: 15px;
-    }
-  
-    .services-inside h3{
-      display: inline-block;
-      color: #3498db;
-      /* border-bottom: 4px solid #3498db; */
-      font-size: 25px;
-      padding-bottom: 10px;
-      margin-top: 40px;
-    }
-  
-    .services-inside ul {
-        margin-top: 0px;
-        display: inline-block;
-      text-align: justify;
-    }
-  
-    .services-inside ul li{
-        color: #3498db;
-        font-size: 18px;   
-    }
-    .services-inside ul li a{
-      color: #000000;
-      cursor: pointer;
-      font-size: 18px;
-  }
-
-}
