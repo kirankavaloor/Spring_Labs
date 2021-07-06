@@ -214,6 +214,16 @@ body{
         text-align: center;
         margin-top: 10px;
       }
+
+      .services-inside h1{
+        display: inline-block;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 4px solid #3498db;
+        font-size: 60px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+      }
     
       .services-inside .button{
           width: 150px;
@@ -242,7 +252,7 @@ body{
         text-transform: uppercase;
         color: #000000;
         border-bottom: 4px solid #3498db;
-        font-size: 40px;
+        font-size: 60px;
         padding-bottom: 10px;
         margin-top: 40px;
       }
@@ -253,14 +263,14 @@ body{
           padding-right: 50px;
           color: #000000;
           text-align: justify;
-          font-size: 20px;
+          font-size: 19px;
       }
     
       .services-inside h3{
         display: inline-block;
         color: #3498db;
         /* border-bottom: 4px solid #3498db; */
-        font-size: 40px;
+        font-size: 50px;
         padding-bottom: 10px;
         /* margin-top: 40px; */
       }
