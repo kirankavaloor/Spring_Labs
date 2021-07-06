@@ -209,11 +209,12 @@ body{
 .slider5{
     width: 800px;
     height: 400px;
-    background: url('../images/21.png');
+    /* background-color: red; */
+    background-image: url('../images/18.png');
     background-repeat: no-repeat;
     background-size: 800px 400px;
     margin: auto;
-    animation: slide4 10s infinite;
+    animation: slide5 10s infinite;
 }
 @keyframes slide5{
     25%{
@@ -237,10 +238,9 @@ body{
         background-size: 800px 400px;
     }
 }
-
 /* For Mobile Screen */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     /* .services-inside{
         text-align: center;
@@ -444,30 +444,30 @@ body{
     .slider5{
         width: 400px;
         height: 200px;
-        background: url('../images/21.png');
+        background: url('../images/18.png');
         background-repeat: no-repeat;
         background-size: 400px 200px;
         margin: auto;
-        animation: slide4 10s infinite;
+        animation: slide5 10s infinite;
     }
     @keyframes slide5{
         25%{
-            background: url('../images/18.png');
-            background-repeat: no-repeat;
-            background-size: 400px 200px;
-        }
-        50%{
             background: url('../images/19.png');
             background-repeat: no-repeat;
             background-size: 400px 200px;
         }
-        75%{
+        50%{
             background: url('../images/20.png');
             background-repeat: no-repeat;
             background-size: 400px 200px;
         }
-        100%{
+        75%{
             background: url('../images/21.png');
+            background-repeat: no-repeat;
+            background-size: 400px 200px;
+        }
+        100%{
+            background: url('../images/18.png');
             background-repeat: no-repeat;
             background-size: 400px 200px;
         }
