@@ -210,19 +210,9 @@ body{
 
 @media screen and (max-width: 768px) {
 
-    /* .services-inside{
+    .services-inside{
         text-align: center;
         margin-top: 10px;
-      }
-
-      .services-inside h1{
-        display: inline-block;
-        text-transform: uppercase;
-        color: #000000;
-        border-bottom: 4px solid #3498db;
-        font-size: 60px;
-        padding-bottom: 10px;
-        margin-top: 40px;
       }
     
       .services-inside .button{
@@ -247,7 +237,7 @@ body{
           background-color: #3498db;
       }
     
-      .services-inside h1{
+      /* .services-inside h1{
         display: inline-block;
         text-transform: uppercase;
         color: #000000;
@@ -255,8 +245,8 @@ body{
         font-size: 60px;
         padding-bottom: 10px;
         margin-top: 40px;
-      } */
-    
+      }
+     */
       /* .services-inside p {
           width: 80%;
           padding-left: 50px;
@@ -266,16 +256,16 @@ body{
           font-size: 19px;
       } */
     
-      /* .services-inside h3{
+      .services-inside h3{
         display: inline-block;
         color: #3498db;
         border-bottom: 4px solid #3498db;
         font-size: 50px;
         padding-bottom: 10px;
         margin-top: 40px;
-      } */
+      }
     
-      /* .services-inside ul {
+      .services-inside ul {
           margin-top: 0px;
           display: inline-block;
         text-align: justify;
@@ -289,7 +279,7 @@ body{
         color: #000000;
         cursor: pointer;
         font-size: 30px;
-    } */
+    }
 
     .slider1{
         width: 400px;
