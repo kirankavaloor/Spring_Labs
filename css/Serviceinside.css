@@ -210,14 +210,14 @@ body{
 
 @media screen and (max-width: 768px) {
 
-    .services-inside{
+    /* .services-inside{
         text-align: center;
         margin-top: 10px;
       }
     
       .services-inside .button{
-          width: 150px;
-          height: 120px;
+          width: 200px;
+          height: 180px;
           background-color: #3498db;
           border-radius: 30px;
           position: Fixed;
@@ -235,7 +235,7 @@ body{
       .services-inside .button i:hover {
           color: #3498db;
           background-color: #3498db;
-      }
+      } */
     
       /* .services-inside h1{
         display: inline-block;
@@ -256,7 +256,7 @@ body{
           font-size: 19px;
       } */
     
-      .services-inside h3{
+      /* .services-inside h3{
         display: inline-block;
         color: #3498db;
         border-bottom: 4px solid #3498db;
@@ -273,13 +273,13 @@ body{
     
       .services-inside ul li{
           color: #3498db;
-          font-size: 30px;   
+          font-size: 50px;   
       }
       .services-inside ul li a{
         color: #000000;
         cursor: pointer;
-        font-size: 30px;
-    }
+        font-size: 50px;
+    } */
 
     .slider1{
         width: 400px;
